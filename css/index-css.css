@@ -28,7 +28,7 @@ body {
 	background-image:url(../images/body-bg-1.jpg);
 	background-size: 100%;
 	background-repeat:no-repeat;
-	background-attachment:fixed;
+	background-attachment:scroll;
 }
 
 .container {
@@ -65,7 +65,7 @@ body {
 	padding: 0;
 	background-color: #474A48;
 	overflow: hidden;
-	position: relative;
+	position: fixed;
 	width: 100%;
 }
 
@@ -88,6 +88,14 @@ body {
 .active {
 	background-color: #9AE19D;
 	color: #ccc;
+}
+
+.body-text {
+	color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 	
 
