@@ -1,13 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html-group-project(1)", "http://localhost:49585", "{9B4E657D-19B5-41DA-A37B-DA98E29B0D78}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html-group-project", "http://localhost:49585", "{9B4E657D-19B5-41DA-A37B-DA98E29B0D78}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49585"
+		Debug.AspNetCompiler.PhysicalPath = "..\html-group-project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49585\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49585"
+		Release.AspNetCompiler.PhysicalPath = "..\html-group-project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49585\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "..\html-group-project\"
 	EndProjectSection
