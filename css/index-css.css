@@ -96,13 +96,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-<<<<<<< HEAD
 
 .search input[type=text] {
-=======
-	
-input[type=text] {
->>>>>>> origin/master
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -158,5 +153,4 @@ input, label {
 
 input {
     width:100%;
-    margin-bottom:10px;
 }
