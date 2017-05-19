@@ -98,7 +98,7 @@ body {
 	margin-right: auto;
 }
 
-input[type=text] {
+.search input[type=text] {
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -114,8 +114,24 @@ input[type=text] {
 }
 
 /* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
+.search input[type=text]:focus {
     width: 100%;
+}
+
+.index-table {
+	border-collapse: collapse;
+	width: 100%;
+	color: white;
+}
+
+.index-table td, th {
+	border: 1px solid #bbb;
+	text-align: left;
+	padding: 8px;
+}
+
+.index-table tr:nth-child(even) {
+	background-color: #474A48;
 }
 	
 
