@@ -33,42 +33,53 @@
             <form action="#" method="post">
                 <section>
                     <div>
-                        <label class="lable-parking" for="name">Name:</label>
-                        <input class="input-parking" type="text" id="name" name="user_name" />
+                        <label class="parking-label" for="name">Owner's name:</label>
+                        <input class="parking-input" type="text" id="name" name="owner_name" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="type_vehicle">Type of vehicle:</label>
-                        <input class="input-parking" type="text" id="name" name="vehicle_type" />
+                        <label class="parking-label" for="type_vehicle">Type of vehicle:</label>
+                        <div class="parking-vehicle-type">
+                            <label>
+                                <input class="parking-radio" type="radio" name="vehicle_type" value="type_motorcycle" /> Motorcycle
+                            </label>
+                            <label>
+                                <input class="parking-radio" type="radio" name="vehicle_type" value="type_car" /> Car
+                            </label>
+                            <label>
+                                <input class="parking-radio" type="radio" name="vehicle_type" value="type_bus" /> Bus
+                            </label>
+                            <label>
+                                <input class="parking-radio" type="radio" name="vehicle_type" value="type_truck" /> Truck
+                            </label>
+                        </div>
                     </div>
                     <div>
-                        <label class="lable-parking" for="registration_number">Registration number of the vehicle:</label>
-                        <input class="input-parking" type="text" id="name" name="registration_number" />
+                        <label class="parking-label" for="registration_number">Registration number of the vehicle:</label>
+                        <input class="parking-input" type="text" id="registration_number" name="registration_number" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="vehicle_brand">Brand of the vehicle:</label>
-                        <input class="input-parking" type="text" id="name" name="vehicle_brand" />
+                        <label class="parking-label" for="vehicle_brand">Brand of the vehicle:</label>
+                        <input class="parking-input" type="text" id="vehicle_brand" name="vehicle_brand" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="vehicle_model">Model of the vehicle:</label>
-                        <input class="input-parking" type="text" id="name" name="vehicle_model" />
+                        <label class="parking-label" for="vehicle_model">Model of the vehicle (optional):</label>
+                        <input class="parking-input" type="text" id="vehicle_model" name="vehicle_model" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="vehicle_color">Color of the vehicle:</label>
-                        <input class="input-parking" type="text" id="name" name="vehicle_color" />
+                        <label class="parking-label" for="vehicle_color">Color of the vehicle (optional):</label>
+                        <input class="parking-input" type="text" id="vehicle_color" name="vehicle_color" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="mail">E-mail:</label>
-                        <input class="input-parking" type="email" id="mail" name="user_mail" />
+                        <label class="parking-label" for="mail">E-mail (optional):</label>
+                        <input class="parking-input" type="email" id="user_mail" name="user_mail" />
                     </div>
                     <div>
-                        <label class="lable-parking" for="msg">Message:</label>
-                        <textarea class="text-parking" id="msg" name="user_message"></textarea>
+                        <label class="parking-label" for="msg">Complementary information (optional):</label>
+                        <textarea class="parking-textarea" id="comp_information" name="comp_information"></textarea>
                     </div>
-                </section>
 
-                <div class="parking-button">
-                    <button type="submit">Park your vehicle</button>
-                </div>
+                    <button class="parking-button" type="submit">Park your vehicle</button>
+                </section>
             </form>
         </div>
     </div>
@@ -76,7 +87,7 @@
     <!--footer-->
 
     <footer>
-        <p> &copy; Liam, Mike, Wilhelm </p>
+        <p> &copy; Liam, Mike, Wilhelm <span class="date-text">(2017)</span></p>
     </footer>
 </body>
 </html>

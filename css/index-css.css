@@ -144,7 +144,7 @@ body {
 
 .parking-form {
     /* Just to center the form on the page */
-    margin: 0 auto;
+    margin: 0 auto 50px;
     width: 50%;
     /* To see the outline of the form */
     padding: 1em;
@@ -153,18 +153,42 @@ body {
     text-align: left;
 }
 
-.input-parking, .label-parking, .text-parking {
+.parking-input, .parking-label, .parking-textarea {
     display: block;
 }
 
-.input-parking {
+.parking-label {
+    margin-bottom: 5px;
+}
+
+.parking-input {
     width: 100%;
     margin-bottom: 10px;
 }
 
+.parking-vehicle-type {
+    height: 100%;
+    width:100%;
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+    .parking-vehicle-type label {
+        width:100%;
+        display: inline;
+    }
+
+.parking-textarea {
+    width: 100%;
+    height: 150px;
+}
+
 .parking-button {
-    float: right;
-    border-radius: 16px;
+    float: left;
+    margin: 10px auto auto auto;
+    border-radius: 4px;
 }
 
 footer {
@@ -173,4 +197,8 @@ footer {
     padding: 15px;
     text-align: left;
     vertical-align: middle;
+}
+
+.date-text {
+    font-size: 0.8em;
 }
