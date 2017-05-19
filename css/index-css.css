@@ -168,7 +168,7 @@ body {
 
 .parking-vehicle-type {
     height: 100%;
-    width:100%;
+    width: 100%;
     display: flex;
     border-radius: 3px;
     overflow: hidden;
@@ -176,13 +176,13 @@ body {
 }
 
     .parking-vehicle-type label {
-        width:100%;
+        width: 100%;
         display: inline;
     }
 
-    .parking-vehicle-type label:hover {
-        background-color:#909590;
-    }
+        .parking-vehicle-type label:hover {
+            background-color: #9AE19D;
+        }
 
 .parking-textarea {
     width: 100%;
