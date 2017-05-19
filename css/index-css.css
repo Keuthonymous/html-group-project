@@ -1,4 +1,91 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*2C302E
+  474A48
+  909590
+  9AE19D
+  527A5A
+*/
+@font-face {
+	font-family: Drugs;
+	src:url(drugs/Drugs.otf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #2C302E;
+	padding: 0;
+	margin: 0;
+	font-family: Drugs, Verdana, sans-serif;
+}
+
+.body-bg {
+	background-image:url(../images/body-bg-1.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.container {
+	margin: 50px auto 50px auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.header {
+	color: white;
+	font-size: 50px;
+	text-shadow: 2px 2px 20px #000;
+	text-align:center;
+}
+
+.header hr {
+	border-style: solid;
+	border-size: 1px;
+	margin: 10px;
+}
+
+.nav {
+	padding: 0;
+	margin: 0;
+	
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #474A48;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+	background color: #909590;
+}
+
+.active {
+	background-color: #9AE19D;
+	color: #ccc;
+}
+	
+
 
