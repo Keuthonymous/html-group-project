@@ -6,49 +6,69 @@
     <link href="../css/index-css.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="body-bg">
+
     <!--nav-->
+
     <div class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a class="active" href="#">Park</a></li>
             <li><a href="#">Leave</a></li>
+            <li style="float: right;"><input type="text" name="search" class="input" placeholder="Search.." /></li>
+            <li style="float: right;"><a href="#">Login</a></li>
         </ul>
     </div>
+
     <!--header-->
+
     <div class="container header">
         <h1>Park a vehicle</h1>
         <hr />
     </div>
+
     <!--body-->
+
     <div class="body-text">
         <div class="parking-form">
             <form action="#" method="post">
                 <section>
                     <div>
-                        <label for="name">Name:</label>
-                        <input class="input-form" type="text" id="name" name="user_name" />
+                        <label class="lable-parking" for="name">Name:</label>
+                        <input class="input-parking" type="text" id="name" name="user_name" />
                     </div>
                     <div>
-                        <label for="name">Type of vehicle:</label>
-                        <input class="input-form" type="text" id="name" name="vehicle_type" />
+                        <label class="lable-parking" for="type_vehicle">Type of vehicle:</label>
+                        <input class="input-parking" type="text" id="name" name="vehicle_type" />
                     </div>
                     <div>
-                        <label for="name">Registration number of the vehicle:</label>
-                        <input class="input-form" type="text" id="name" name="registration_number" />
+                        <label class="lable-parking" for="registration_number">Registration number of the vehicle:</label>
+                        <input class="input-parking" type="text" id="name" name="registration_number" />
                     </div>
                     <div>
-                        <label for="name">Color of the vehicle:</label>
-                        <input class="input-form" type="text" id="name" name="vehicle_color" />
+                        <label class="lable-parking" for="vehicle_brand">Brand of the vehicle:</label>
+                        <input class="input-parking" type="text" id="name" name="vehicle_brand" />
                     </div>
                     <div>
-                        <label for="mail">E-mail:</label>
-                        <input class="input-form" type="email" id="mail" name="user_mail" />
+                        <label class="lable-parking" for="vehicle_model">Model of the vehicle:</label>
+                        <input class="input-parking" type="text" id="name" name="vehicle_model" />
                     </div>
                     <div>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <label class="lable-parking" for="vehicle_color">Color of the vehicle:</label>
+                        <input class="input-parking" type="text" id="name" name="vehicle_color" />
+                    </div>
+                    <div>
+                        <label class="lable-parking" for="mail">E-mail:</label>
+                        <input class="input-parking" type="email" id="mail" name="user_mail" />
+                    </div>
+                    <div>
+                        <label class="lable-parking" for="msg">Message:</label>
+                        <textarea class="text-parking" id="msg" name="user_message"></textarea>
                     </div>
                 </section>
+
+                <div class="parking-button">
+                    <button type="submit">Park your vehicle</button>
+                </div>
             </form>
         </div>
     </div>
