@@ -118,6 +118,10 @@ body {
     width: 100%;
 }
 
+.index-table {
+	margin-bottom: 150px;
+}
+
 .index-table table{
 	border-collapse: collapse;
 	width: 80%;
