@@ -107,9 +107,10 @@ body {
     background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 8px 20px 8px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+	margin: 4px 0 4px 0;
 }
 
 /* When the input field gets focus, change its width to 100% */
