@@ -8,93 +8,93 @@
   527A5A
 */
 @font-face {
-    font-family: Drugs;
+	font-family: Drugs;
     src: url(drugs/Drugs.otf);
 }
 
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    background-color: #2C302E;
-    padding: 0;
-    margin: 0;
-    font-family: Drugs, Verdana, sans-serif;
+	background-color: #2C302E;
+	padding: 0;
+	margin: 0;
+	font-family: Drugs, Verdana, sans-serif;
 }
 
 .body-bg {
     background-image: url(../images/body-bg-1.jpg);
-    background-size: 100%;
+	background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
 
 .container {
-    margin: 50px auto 50px auto;
-    padding: 30px;
-    text-align: center;
+	margin: 50px auto 50px auto;
+	padding: 30px;
+	text-align: center;
 }
 
 .header {
-    color: white;
-    font-size: 50px;
-    text-shadow: 2px 2px 20px #000;
+	color: white;
+	font-size: 50px;
+	text-shadow: 2px 2px 20px #000;
     text-align: center;
 }
 
-    .header hr {
-        border: 1px solid white;
-        margin: 10px;
-    }
-
-.nav {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+.header hr {
+	border: 1px solid white;
+	margin: 10px;
 }
 
-    .nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #474A48;
-        overflow: hidden;
-        position: fixed;
-        width: 100%;
-    }
+.nav {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
 
-    .nav li {
-        float: left;
-    }
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #474A48;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
 
-        .nav li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+.nav li {
+	float: left;
+}
 
-            .nav li a:hover:not(.active) {
-                background-color: #909590;
-            }
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+	background-color: #909590;
+}
 
 .active {
-    background-color: #9AE19D;
-    color: #ccc;
+	background-color: #9AE19D;
+	color: #ccc;
 }
 
 .body-text {
-    color: white;
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+	color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .search input[type=text] {
@@ -105,7 +105,7 @@ body {
     font-size: 16px;
     background-color: white;
     background-image: url('searchicon.png');
-    background-position: 10px 10px;
+    background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 8px 20px 8px 40px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -113,27 +113,32 @@ body {
 	margin: 4px 0 4px 0;
 }
 
-    /* When the input field gets focus, change its width to 100% */
-    .search input[type=text]:focus {
-        width: 100%;
-    }
-
-.index-table {
-    border-collapse: collapse;
+/* When the input field gets focus, change its width to 100% */
+.search input[type=text]:focus {
     width: 100%;
-    color: white;
 }
 
-    .index-table td, th {
-        border: 1px solid #bbb;
-        text-align: left;
-        padding: 8px;
-    }
+.index-table {
+	margin-bottom: 150px;
+}
 
-    .index-table tr:nth-child(even) {
-        background-color: #474A48;
-    }
+.index-table table{
+	border-collapse: collapse;
+	width: 80%;
+	color: white;
+	margin: auto;
+}
 
+.index-table td, th {
+	border: 1px solid #bbb;
+	text-align: left;
+	padding: 8px;
+}
+
+.index-table tr:nth-child(even) {
+	background-color: #474A48;
+}
+	
 
 /* Parking page styles */
 
