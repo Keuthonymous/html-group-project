@@ -12,31 +12,49 @@
 		<div class="nav">
 			<ul>
     			<li><a href="index.html">Home</a></li>
-        		<li><a href="#">Park</a></li>
+        		<li><a href="park.html">Park</a></li>
         		<li><a class="active" href="leave.html">Leave</a></li>
         		<li style="float: right;"><input type="text" name="search" class="input" placeholder="Search.."></li>
         		<li style="float: right;"><a href="#">Login</a></li>
     		</ul>
 		</div>
-		<div class="container header">
-			<h1>Exit the garage</h1>
-			<hr>
-			<p>This is where you exit the garage</p>
-		</div>
-		<div class="container" style="margin-top: 200px;">
-		<div class="body-text">
-		<h1>Please select a vehicle below:</h1>
-    	<br />
-    	<hr />
-    	<br />
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus orci sit amet enim blandit faucibus. Vivamus sem magna, volutpat vitae nisl nec, porttitor ullamcorper tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est ligula, mollis vel egestas id, commodo id felis. Etiam sed nisl euismod, mattis nibh quis, sodales nisl. Curabitur eget enim ante. Ut euismod pulvinar nisl, ac tincidunt lacus accumsan quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis non est facilisis, suscipit augue eget, commodo elit.
-    	</p>
-    	<br />
-    	<br />
-    	<br />
-    		<p>Have a nice day!</p>
-		</div>
-		</div>
+        <div class="container header">
+            <h1>Exit the garage</h1>
+            <hr />
+            <p>Enter your vehicle details below to leave.</p>
+        </div>
+        <div class="body-text">
+            <div class="parking-form">
+                <form action="#" method="post">
+                    <section>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input class="input-form" type="text" id="name" name="user_name" />
+                        </div>
+                        <div>
+                            <label for="name">Type of vehicle:</label>
+                            <input class="input-form" type="text" id="name" name="vehicle_type" />
+                        </div>
+                        <div>
+                            <label for="name">Registration number of the vehicle:</label>
+                            <input class="input-form" type="text" id="name" name="registration_number" />
+                        </div>
+                        <div>
+                            <label for="name">Color of the vehicle:</label>
+                            <input class="input-form" type="text" id="name" name="vehicle_color" />
+                        </div>
+                        <div>
+                            <label for="mail">E-mail:</label>
+                            <input class="input-form" type="email" id="mail" name="user_mail" />
+                        </div>
+                        <div>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </div>
 	</body>
 	<footer>
 	</footer>
