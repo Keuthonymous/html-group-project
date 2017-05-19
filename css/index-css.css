@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* CSS Document */
 
 /*2C302E
@@ -9,7 +9,7 @@
 */
 @font-face {
 	font-family: Drugs;
-	src:url(drugs/Drugs.otf);
+    src: url(drugs/Drugs.otf);
 }
 
 * {
@@ -25,10 +25,10 @@ body {
 }
 
 .body-bg {
-	background-image:url(../images/body-bg-1.jpg);
+    background-image: url(../images/body-bg-1.jpg);
 	background-size: 100%;
-	background-repeat:no-repeat;
-	background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
 	color: white;
 	font-size: 50px;
 	text-shadow: 2px 2px 20px #000;
-	text-align:center;
+    text-align: center;
 }
 
 .header hr {
@@ -56,7 +56,6 @@ body {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	
 }
 
 .nav ul {
@@ -97,8 +96,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+<<<<<<< HEAD
 
 .search input[type=text] {
+=======
+	
+input[type=text] {
+>>>>>>> origin/master
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -135,4 +139,24 @@ body {
 }
 	
 
+/* Parking page styles */
 
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 50%;
+    /* To see the outline of the form */
+    padding: 1em;
+    /*border: 1px solid #CCC;
+    border-radius: 1em;*/
+    text-align: left;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    width:100%;
+    margin-bottom:10px;
+}
